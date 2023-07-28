@@ -24,7 +24,7 @@ jobs:
       - name: Execute tests
         run: ./gradlew clean test -Dselenide.remote=http://localhost:4444/wd/hub
 
-      - name: Checkout report history
+      - name: Get report history
         uses: actions/checkout@v2
         if: always()
         continue-on-error: true

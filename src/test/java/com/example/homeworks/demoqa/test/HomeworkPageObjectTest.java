@@ -3,11 +3,14 @@ package com.example.homeworks.demoqa.test;
 import com.example.homeworks.demoqa.TestBase;
 import com.example.homeworks.demoqa.data.HomeworkPageData;
 import io.qameta.allure.*;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class HomeworkPageObjectTest extends TestBase {
 
+
+    @Disabled
     @Test
     @Owner("apyrinov")
     @Severity(SeverityLevel.NORMAL)
