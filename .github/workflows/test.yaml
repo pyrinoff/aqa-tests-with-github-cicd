@@ -1,6 +1,10 @@
 name: Run tests
 
-on: workflow_dispatch
+#on: workflow_dispatch
+on:
+  push:
+    branch:
+      master
 
 jobs:
   test:

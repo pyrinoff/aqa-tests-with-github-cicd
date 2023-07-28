@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 public class HomeworkPageObjectTest extends TestBase {
 
 
-    @Disabled
+    //@Disabled
     @Test
     @Owner("apyrinov")
     @Severity(SeverityLevel.NORMAL)
